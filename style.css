@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Gowun Batang';
+    src: url('/GOWUNBATANG-REGULAR.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gowun Batang', sans-serif;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#container{
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    grid-template-columns: 500px 500px;
+}
+
+#input {
+    background-color: rgb(218, 218, 248);
+    padding: 12px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    height: 300px;
+}
+
+#title {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#ichiban {
+    grid-column: span 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#niban {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sanban {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#return {
+    background-color: rgb(13, 75, 146);
+    color:#fff;
+}
+
+#return:hover {
+    background-color: rgb(102, 165, 237);
+}
+
+#cancel {
+    background-color: rgb(160, 16, 16);
+    color:#fff;
+}
+
+#cancel:hover {
+    background-color: rgb(237, 102, 102);
+}
+
+#first {
+    font-size: 54px;
+    padding-right: 20px;
+}
+
+#second {
+    font-size: 36px;
+    padding-right: 60px;
+}
+
+#third {
+    font-size: 36px;
+    padding-right: 60px;    
+}
+
+#tools, #csvBtn {
+    background-color: #eee;
+}
+
+#tools:hover, #csvBtn:hover {
+    background-color: #ccc;
+}
+
+.hidden {
+    display: none;
+}
+
+.input-tag {
+    width: 80px;
+}
+
+.input-container {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.podium {
+    display: flex;
+}
+
+header {
+    grid-column: span 2;
+}
+
+h1 {
+    padding: 27px;
+    text-align: center;
+    font-size: 72px;
+    color: rgb(13, 75, 146);
+}
+
+h2 {
+    margin-bottom: 24px;
+    font-size: 36px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+footer {
+    grid-column: span 2;
+    margin-top: 36px;
+    font-size: 8px;
+    color: #ccc;
+    margin-left: 40px;
+}
+
+input {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 6px;
+    margin-left: 20px;
+    width: 80%;
+    border-radius: 6px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+img {
+    width: 150px;
+}
